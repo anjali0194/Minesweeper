@@ -1,0 +1,32 @@
+.grid-cell {
+  height: 40px;
+}
+
+.grid-empty {
+  height: 40px;
+}
+
+.cell-size {
+  height: 40px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  height: 40px;
+}
+
+.cell-icon {
+  height: 30px;
+}
+
+.grid-header {
+  width: "570px";
+  height: "500px";
+}
+
+::backdrop {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  background-color: rgb(107 114 128 / 0.75);
+}
